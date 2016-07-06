@@ -6,7 +6,7 @@ cd ELK-docker-*
 docker-compose up
 </code>
 
-Then access GUI http://host-ip:5601/, create button (replace logstash-* with *)
+Then access GUI http://host-ip:5601/ & create button (replace logstash-* with *)
 
 # Install FileBeat (Client)
 
