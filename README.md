@@ -2,7 +2,11 @@
 
 <code>
 git clone https://github.com/thuannvn/ELK-docker-filebeat-Centralized-Log-System.git
+</code>
+<code>
 cd ELK-docker-*
+</code>
+<code>
 docker-compose up
 </code>
 
