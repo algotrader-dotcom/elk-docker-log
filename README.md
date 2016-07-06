@@ -18,7 +18,6 @@ Client will send logs to server through logstash (server configure accept logsta
 
 # Server logstach config
 
-<code>
 $vi logstash/config/logstash.conf
 input {
    beats {
@@ -34,7 +33,7 @@ output {
 }
 
 # Client filebeat config (Remember to remove elasticsearch output, replace with logstash)
+
 $vi /etc/filebeat/filebeat.yml
 logstash:
      hosts: ["172.16.20.113:5000"]
-</code>
