@@ -1,12 +1,8 @@
 # Docker ELK installation (Server)
-<code>git clone https://github.com/thuannvn/ELK-docker-filebeat-Centralized-Log-System.git                                     
-</code>
 <code>
+git clone https://github.com/thuannvn/ELK-docker-filebeat-Centralized-Log-System.git                                           
 cd ELK-docker-*                                                                                                                
-</code>
-<code>
-docker-compose up                                                                                                              
-</code>
+docker-compose up                                                                                                              </code>
 
 Then access GUI http://host-ip:5601/ & create button (replace logstash-* with *)
 
